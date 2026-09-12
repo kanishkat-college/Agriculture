@@ -1,0 +1,66 @@
+fieldset {
+    width: 50%;
+    margin: 20px auto;
+    padding: 25px 30px;
+    border: 2px solid #137637; 
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    background-color: #5C8038;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+label {
+    font-weight: bold;
+    color: #5E412F;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="date"], 
+input[type="file"] {
+    width: 100%;      
+    padding: 10px;          
+    margin: 8px 0 15px 0;    
+    border: 1px solid #ccc;
+    border-radius: 5px;   
+    box-sizing: border-box;   
+}
+
+input[type="text"]:focus, 
+input[type="tel"]:focus, 
+input[type="email"]:focus, 
+input[type="date"]:focus {
+    border-color: #137637;
+    outline: none;
+    box-shadow: 0 0 5px rgba(19, 118, 55, 0.5); 
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    background-color: #5C8038; 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;   
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, 
+input[type="reset"]:hover {
+    background-color: #1F4D2C; 
+}

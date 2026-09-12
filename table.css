@@ -1,0 +1,29 @@
+/* Universal Table Styles for Advisory and Sensor/Irrigation Data */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+
+table th,
+table td {
+    padding: 12px 10px;
+    text-align: center;
+    border: 1px solid #137637;
+}
+
+table th {
+    background-color: #5C8038;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+table tfoot td {
+    background-color: #F0F7E6;
+    font-weight: bold;
+    border-top: 2px solid #137637;
+}
